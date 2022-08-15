@@ -42,8 +42,8 @@ public class ExploreCaliApplication implements CommandLineRunner {
         // set up database before permitting web requests
         // run method at object scoped therefore we can access the injected services
         // autowired above
-        createTourAllPackages();
-        createTours(importFile);
+        // createTourAllPackages();
+        // createTours(importFile);
     }
 
     /**
